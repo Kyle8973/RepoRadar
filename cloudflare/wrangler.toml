@@ -1,0 +1,13 @@
+name = "reporadar"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "REPORADAR_KV"
+id = "YOUR_KV_NAMESPACE_ID"
+
+# Secrets — set via dashboard or: wrangler secret put SECRET_NAME
+# ADMIN_USER
+# ADMIN_PASS
+# GITHUB_TOKEN
+# IS_PUBLIC (optional, set to "true" to skip auth)
